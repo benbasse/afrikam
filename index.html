@@ -35,7 +35,7 @@
         .container {
             text-align: center;
             padding: 2rem;
-            padding-bottom: 8rem;
+            padding-bottom: 10rem;
             max-width: 700px;
             width: 100%;
         }
@@ -164,14 +164,18 @@
         }
 
         .footer {
-            position: absolute;
-            bottom: 2rem;
+            position: fixed;
+            bottom: 0;
             left: 0;
             right: 0;
             text-align: center;
             font-size: 0.85rem;
             color: var(--text-light);
             letter-spacing: 0.3px;
+            padding: 1.5rem 2rem;
+            background: #ffffff;
+            border-top: 1px solid #f0f0f0;
+            z-index: 100;
         }
 
         .footer span {
